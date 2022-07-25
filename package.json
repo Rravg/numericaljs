@@ -1,11 +1,20 @@
 {
-  "name": "numerical",
+  "name": "numericaljs",
   "version": "1.0.0",
-  "description": "Numerical methods and algorithms for Javascript",
-  "main": "index.js",
+  "description": "Numerical methods and algorithms for JavaScript",
+  "author": "Rodrigo Villalobos",
+  "keywords": [
+    "numerical methods",
+    "algorithms",
+    "engineering"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
   "scripts": {
+    "start": "tsc && node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rodrigo Villalobos",
-  "license": "MIT"
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
